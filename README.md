@@ -6,6 +6,32 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.9-orange.svg)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](#)
 
+## Portfolio Value
+
+This project demonstrates practical data engineering and machine learning preparation skills for process analytics. It covers the steps that make industrial datasets usable before modeling: denoising, missing-value imputation, robust outlier detection, feature selection, and baseline regression validation.
+
+```mermaid
+flowchart LR
+    Raw[Raw Process Data] --> Clean[Cleaning and Validation]
+    Clean --> Denoise[Signal Denoising]
+    Clean --> Missing[Missing Data Imputation]
+    Clean --> Outliers[Outlier Detection]
+    Denoise --> Features[Feature Selection]
+    Missing --> Features
+    Outliers --> Features
+    Features --> Model[Baseline Regression Model]
+    Model --> Review[Evaluation and Interpretation]
+```
+
+## Skills Demonstrated
+
+- Python data analysis with NumPy, pandas, SciPy, matplotlib, and scikit-learn.
+- Robust statistics using Hampel boundaries, MAD, Mahalanobis distance, and MCD covariance.
+- Missing-value handling with mean and KNN imputation.
+- Signal processing with moving average and Savitzky-Golay filters.
+- Feature selection with filter, embedded, and wrapper methods.
+- Notebook-to-script reproducibility for both learning and automation.
+
 ---
 
 ## 目录
